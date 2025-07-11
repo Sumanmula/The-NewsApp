@@ -17,6 +17,13 @@ import com.example.newsapplication.viewmodel.Result
 @Composable
 fun HomeApp(viewModel: NewsViewModel) {
 
+    val newsState by viewModel.newsState.collectAsState()
+
+    val articles = when (newsState) {
+        is Result.Success -> (newsState as Result.Success).data?.articles ?: emptyList()
+        else -> emptyList()
+    }
+
     LazyColumn(
         modifier = Modifier
             .fillMaxSize()
