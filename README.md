@@ -17,9 +17,9 @@ A modern and responsive News Application built using **Jetpack Compose** and **M
 
 ## 📸 Screenshots
 
-| Splash Screen         | Home Screen            | Error Dialog             |
+| Splash Screen          | Loader Screen          | Home Screen          | Error Dialog          |
 |-----------------------|------------------------|---------------------------|
-| ![Splash](assets/splash.png) | ![Home](assets/home.png) | ![Dialog](assets/error_dialog.png) |
+| ![Splash](assets/splash.png) | ![Loader](assets/loader.png) | ![Home](assets/home.png) | ![Dialog](assets/error.png) |
 
 ---
 
