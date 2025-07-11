@@ -55,6 +55,17 @@ fun NewsCard(article: Article) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
+            .clickable {
+                val url = article.url
+
+                if (!url.isNullOrBlank() && Patterns.WEB_URL.matcher(url).matches()) {
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+                    context.startActivity(intent)
+                }
+                else {
+                    showDialog = true
+                }
+            },
         shape = MaterialTheme.shapes.medium,
         elevation = CardDefaults.cardElevation(defaultElevation = 6.dp),
         colors = CardDefaults.cardColors(containerColor = Color(0xFFF7F7F7))
