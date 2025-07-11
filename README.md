@@ -56,7 +56,16 @@ Whether it's fixing bugs, improving documentation or proposing new features — 
 - 📧 sumanmula2000@gmail.com 
 - 💼 Android Developer | Kotlin | Jetpack Compose Enthusiast
 
-> ⭐ If you found this project helpful, give it a star to show your support!
+---
+
+## 📦 Download APK
+
+👇 **Click here to download the latest APK**
+
+[![Download APK](https://img.shields.io/badge/Download-APK-blue.svg?style=for-the-badge)](https://surl.lu/raputm)
+
+> 📱 You can install this APK on any Android device (Android 5.0 and above).  
+> ⚠️ Allow installation from unknown sources to install the app manually.
 
 ---
 
